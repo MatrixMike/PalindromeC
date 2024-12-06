@@ -1,0 +1,6 @@
+StringStuff
+Palindrome1
+*.o
+a.out
+*.c~
+*.cxx?
