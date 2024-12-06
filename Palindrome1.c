@@ -22,36 +22,51 @@
  */
 #include <stdio.h>
 #include <string.h>
+/*
+ * 06.12.2024 22:25:48
+ * name: unknown
+ * @param
+ * @return
+ * 
+ */
 
 
 int
 main (int argc, char **argv)
 {
 //char vars1[20];
-  char vars2[] = "mimississipxyxpipip";
+  char vars2[] = "mimississipxyxpipipzzzz Revitive";
   char vars3[7] = { 0 };
 // char *wikipedia = vars[4];
 
+/*
   char src[] = "SexDrugsRocknroll";
-  char dest[5] = { 0 };		// 4 chars + terminator */
+  char dest[5] = { 0 };		// 4 chars + terminator 
+
+
+
+*/
+  
   int len = strlen (vars2);
 
   int i;
   printf ("found1 =, %s\n", vars2);
 //    printf ("fo =, %s\n", vars2[1]);
 
-  for (i = 1; i < 12; i++)
+/*
+  for (i = 0; i < len; i++)
     {
       if (vars2[i] == 's')
 	printf ("found1 =, %d\n", i);
     }
+*/
 
-  for (i = 1; i < 12; i++)
+
+  for (i = 0; i < len; i++)
     {
       if (vars2[i] == vars2[i + 2])
 	{
 	  printf ("found2 =, %d\n", i);
-
 	  strncpy (vars3, vars2 + (i), 3);
 //    strncpy(dest, src+(i*4), 4);
 	  printf ("loop %d : %s\n", i, vars3);
