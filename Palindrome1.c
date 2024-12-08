@@ -64,7 +64,7 @@ main (int argc, char **argv)
 
   for (i = 0; i < len; i++)
     {
-      if (vars2[i] == vars2[i + 2])
+      if ((vars2[i] == vars2[i + 2]) && (vars2[i] != vars2[i + 1]))
 	{
 	  printf ("found2 =, %d\n", i);
 	  strncpy (vars3, vars2 + (i), 3);
