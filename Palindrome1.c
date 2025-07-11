@@ -70,6 +70,12 @@ main (int argc, char **argv)
 	  strncpy (vars3, vars2 + (i), 3);
 //    strncpy(dest, src+(i*4), 4);
 	  printf ("loop %d : %s\n", i, vars3);
+	  if ((vars2[i-1] == vars2[i+3]))
+	  {
+		printf ("   five chars =, %d\n", i); 
+		strncpy (vars3, &vars2[i]-1, 5);  // vars3 destination ; vars2 source :  vars2[i-1]
+		printf ("loop5 %d : %s\n", i, vars3);
+	  }
 	}
     }
   return 0;
