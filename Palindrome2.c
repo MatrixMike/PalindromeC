@@ -24,6 +24,7 @@
  // plenty of bugs in this
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 /*
  * 06.12.2024 22:25:48
  * name: unknown
@@ -37,7 +38,7 @@ int
 main (int argc, char **argv)
 {
 //char vars1[20];
-  char vars2[] = "Re vitivemimississipxyxpipipzzAz RevitiveXYZ abcdefgfedcba";
+  char vars2[] = "Re vitivemimississipxyxpipipzzAz RevitiveXYZ abcdefgfedcba Toyota ";
   char vars3[9] = { 0 };
 // char *wikipedia = vars[4];
 

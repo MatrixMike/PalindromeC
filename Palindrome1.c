@@ -32,7 +32,7 @@
  * 
  */
 
-  bool s = false;
+  int s = false;
 int
 main (int argc, char **argv)
 {
